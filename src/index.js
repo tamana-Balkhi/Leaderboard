@@ -1,12 +1,6 @@
-import _ from 'lodash';
+import addScoresC from './modules/addScore.js';
+import sTable from './modules/scoretable.js';
 import './style.css';
-function component() {
-  const element = document.createElement('div');
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-  return element;
-}
-
-document.body.appendChild(component());
+document.querySelector('main').innerHTML += addScoresC;
+document.querySelector('main').innerHTML += sTable;

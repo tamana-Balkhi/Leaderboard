@@ -1,3 +1,104 @@
+
+body {
+  background: rgb(161, 173, 165);
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.main-container {
+  margin: auto;
+  margin-top: 30px;
+  width: 800px;
+  padding: 40px;
+  background-color: rgb(63, 171, 97);
+  color: #050801;
+}
+
 h1 {
-  color: green;
+  padding: 1em 0;
+  font-family: sans-serif;
+}
+
+header {
+  margin: auto;
+  max-width: 600px;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-scores-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  background: white;
+  padding: 5px;
+  font-size: 12px;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #0f0e0f;
+  border: #000 2px solid;
+}
+
+button:hover {
+  background-color: #0f0e0f;
+  color: #fff;
+}
+
+.recent {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  border: 1px solid black;
+  background: rgb(161, 173, 165);
+  overflow-y: scroll;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 10px;
+}
+
+.table-title {
+  padding-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  color: #000;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form button {
+  align-self: flex-end;
 }

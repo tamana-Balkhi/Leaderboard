@@ -1,5 +1,3 @@
-
-
 let DATA = [];
 async function getDATA() {
   const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/HM4EVKKEOdqP9F8CeQFM/scores');

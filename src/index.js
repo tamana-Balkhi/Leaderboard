@@ -1,4 +1,3 @@
-
 import './style.css';
 import display from './modules/displayScore.js';
 
@@ -25,9 +24,8 @@ addScore.addEventListener('click', (e) => {
   score.value = '';
 });
 
-
 // Create the game
-/*fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+/* fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
@@ -35,4 +33,4 @@ addScore.addEventListener('click', (e) => {
   }),
 })
   .then((res) => res.json())
-  .then((data) => console.log(data.result));*/
+  .then((data) => console.log(data.result)); */

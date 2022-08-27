@@ -1,6 +1,6 @@
 
 body {
-  background:rgb(187, 206, 206);
+  background: rgb(187, 206, 206);
   overflow: hidden;
   margin-top: 60px;
 }
@@ -70,7 +70,6 @@ button:hover {
   background: rgb(28, 139, 65);
   overflow-y: scroll;
   width: 300px;
-  height: fit-content;
   border-radius: 5px;
   padding: 9px;
 }
@@ -80,6 +79,7 @@ button:hover {
   list-style: none;
   border-bottom: 1px solid black;
 }
+
 .table-title {
   padding-bottom: 20px;
 }
@@ -92,7 +92,7 @@ button:hover {
 
 .form input {
   box-sizing: border-box;
-  background-color:gray;
+  background-color: gray;
   padding: 10px;
   border: none;
   font-size: 1rem;

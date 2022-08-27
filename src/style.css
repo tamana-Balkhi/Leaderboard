@@ -1,6 +1,6 @@
 
 body {
-  background: rgb(161, 173, 165);
+  background:rgb(187, 206, 206);
   overflow: hidden;
   margin-top: 60px;
 }
@@ -10,7 +10,7 @@ body {
   margin-top: 30px;
   width: 800px;
   padding: 40px;
-  background-color: rgb(63, 171, 97);
+  background-color: white;
   color: #050801;
 }
 
@@ -65,19 +65,21 @@ button:hover {
   justify-content: space-between;
 }
 
-table {
+.listContainer {
   border: 1px solid black;
-  background: rgb(161, 173, 165);
+  background: rgb(28, 139, 65);
   overflow-y: scroll;
+  width: 300px;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 9px;
 }
 
-td,
-th {
-  border: 1px solid #000;
-  text-align: left;
-  padding: 10px;
+.listContainer li {
+  text-decoration: none;
+  list-style: none;
+  border-bottom: 1px solid black;
 }
-
 .table-title {
   padding-bottom: 20px;
 }
@@ -90,11 +92,11 @@ th {
 
 .form input {
   box-sizing: border-box;
-  background-color: #fff;
+  background-color:gray;
   padding: 10px;
   border: none;
   font-size: 1rem;
-  color: #000;
+  color: rgb(241, 230, 230);
   width: 100%;
   margin-bottom: 20px;
 }

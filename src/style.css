@@ -10,13 +10,13 @@ body {
   margin-top: 30px;
   width: 800px;
   padding: 40px;
-  background-color:#000;
-  color: #ffffff;
-   box-shadow:
+  background-color: #000;
+  color: #fff;
+  box-shadow:
     0 0 400px #000,
-    0 0 400px #000000,
+    0 0 400px #000,
     0 0 400px #0000,
-    0 0 200px #000000;
+    0 0 200px #000;
 }
 
 h1 {
@@ -106,7 +106,7 @@ button:hover {
   padding: 10px;
   border: none;
   font-size: 1rem;
-  color:#000;
+  color: #000;
   width: 100%;
   margin-bottom: 20px;
 }

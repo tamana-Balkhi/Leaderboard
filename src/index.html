@@ -11,10 +11,26 @@
 <body>
   <div class="main-container">
     <header>
-      <h1>Leaderboard</h1>
+      <h1> Leaderboard</h1>
     </header>
     <main class="main">
-      <!-----content come here-->
+      <div class="recent-scores-container container">
+        <div class="recent table-title">
+          <h2>Recent scores</h2>
+          <button type="button" id="refresh-btn">Refresh</button>
+        </div>
+        <ul class="listContainer">
+
+        </ul>
+      </div>
+      <div class="add-score-container container">
+        <h2 class="table-title">Add your score</h2>
+        <form class="form" action="#">
+          <input type="text" name="name" id="input-name" placeholder="Your name" required>
+          <input type="number" name="score" id="input-score" placeholder="Your score" required>
+          <button type="submit" id="add_score">Submit</button>
+        </form>
+      </div>
     </main>
   </div>
 </body>
